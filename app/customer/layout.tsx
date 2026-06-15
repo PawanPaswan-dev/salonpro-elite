@@ -2,7 +2,7 @@ import { LayoutDashboard, CreditCard, Wallet } from "lucide-react";
 import DashboardShell from "@/components/dashboard/DashboardShell";
 import type { DashboardTab } from "@/components/dashboard/DashboardSidebar";
 
-export const CUSTOMER_TABS: DashboardTab[] = [
+const CUSTOMER_TABS: DashboardTab[] = [
   { href: "/customer", label: "Dashboard", icon: LayoutDashboard },
   { href: "/customer/card", label: "Membership Card", icon: CreditCard },
   { href: "/customer/wallet", label: "Digital Wallet", icon: Wallet },
