@@ -2,7 +2,7 @@ import { LayoutDashboard, ClipboardList } from "lucide-react";
 import DashboardShell from "@/components/dashboard/DashboardShell";
 import type { DashboardTab } from "@/components/dashboard/DashboardSidebar";
 
- const EMPLOYEE_TABS: DashboardTab[] = [
+  const EMPLOYEE_TABS: DashboardTab[] = [
   { href: "/employee", label: "My Dashboard", icon: LayoutDashboard },
   { href: "/employee/tasks", label: "Daily Tasks", icon: ClipboardList },
 ];
