@@ -42,20 +42,20 @@ export interface Service {
   category: string;
   price: number;
   duration: number;
-  icon: LucideIcon;
+  icon: string;
   benefits: string[];
   popularity: number;
 }
 
 export const SERVICES: Service[] = [
-  { id: 1, name: "Signature Haircut", category: "Hair", price: 899, duration: 45, icon: Scissors, benefits: ["Precision styling by senior stylist", "Includes wash & blow-dry", "Personalized consultation"], popularity: 92 },
-  { id: 2, name: "Luxury Hair Spa", category: "Hair", price: 1599, duration: 75, icon: Sparkles, benefits: ["Deep nourishing treatment", "Scalp massage therapy", "Repairs damaged hair"], popularity: 81 },
-  { id: 3, name: "Global Hair Coloring", category: "Hair", price: 3499, duration: 120, icon: Gem, benefits: ["Premium ammonia-free color", "Long-lasting shine", "Customized shade matching"], popularity: 76 },
-  { id: 4, name: "Rejuvenating Facial", category: "Skin", price: 2199, duration: 60, icon: Heart, benefits: ["Deep cleansing & exfoliation", "Anti-aging formulation", "Instant glow boost"], popularity: 88 },
-  { id: 5, name: "Beard Styling & Sculpt", category: "Grooming", price: 499, duration: 30, icon: Flame, benefits: ["Sharp, defined contours", "Hot towel finish", "Beard oil application"], popularity: 70 },
-  { id: 6, name: "Nail Care & Art", category: "Nails", price: 999, duration: 50, icon: Star, benefits: ["Manicure & pedicure", "Gel polish options", "Custom nail art"], popularity: 65 },
-  { id: 7, name: "Bridal Makeup Package", category: "Bridal", price: 24999, duration: 180, icon: Crown, benefits: ["HD airbrush makeup", "Trial session included", "Dedicated bridal artist"], popularity: 95 },
-  { id: 8, name: "Keratin Smoothing Treatment", category: "Hair", price: 5999, duration: 150, icon: Zap, benefits: ["Frizz-free for up to 4 months", "Adds natural shine", "Strengthens hair fiber"], popularity: 84 },
+  { id: 1, name: "Signature Haircut", category: "Hair", price: 899, duration: 45, icon: "Scissors", benefits: ["Precision styling by senior stylist", "Includes wash & blow-dry", "Personalized consultation"], popularity: 92 },
+  { id: 2, name: "Luxury Hair Spa", category: "Hair", price: 1599, duration: 75, icon: "Sparkles", benefits: ["Deep nourishing treatment", "Scalp massage therapy", "Repairs damaged hair"], popularity: 81 },
+  { id: 3, name: "Global Hair Coloring", category: "Hair", price: 3499, duration: 120, icon: "Gem", benefits: ["Premium ammonia-free color", "Long-lasting shine", "Customized shade matching"], popularity: 76 },
+  { id: 4, name: "Rejuvenating Facial", category: "Skin", price: 2199, duration: 60, icon: "Heart", benefits: ["Deep cleansing & exfoliation", "Anti-aging formulation", "Instant glow boost"], popularity: 88 },
+  { id: 5, name: "Beard Styling & Sculpt", category: "Grooming", price: 499, duration: 30, icon: "Flame", benefits: ["Sharp, defined contours", "Hot towel finish", "Beard oil application"], popularity: 70 },
+  { id: 6, name: "Nail Care & Art", category: "Nails", price: 999, duration: 50, icon: "Star", benefits: ["Manicure & pedicure", "Gel polish options", "Custom nail art"], popularity: 65 },
+  { id: 7, name: "Bridal Makeup Package", category: "Bridal", price: 24999, duration: 180, icon: "Crown", benefits: ["HD airbrush makeup", "Trial session included", "Dedicated bridal artist"], popularity: 95 },
+  { id: 8, name: "Keratin Smoothing Treatment", category: "Hair", price: 5999, duration: 150, icon:" Zap", benefits: ["Frizz-free for up to 4 months", "Adds natural shine", "Strengthens hair fiber"], popularity: 84 },
 ];
 
 /* ============================================================
