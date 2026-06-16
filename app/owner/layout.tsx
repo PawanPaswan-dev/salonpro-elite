@@ -2,7 +2,7 @@ import { LayoutDashboard, BarChart3, Users, Package, Briefcase } from "lucide-re
 import DashboardShell from "@/components/dashboard/DashboardShell";
 import type { DashboardTab } from "@/components/dashboard/DashboardSidebar";
 
-export const OWNER_TABS: DashboardTab[] = [
+ const OWNER_TABS: DashboardTab[] = [
   { href: "/owner", label: "Overview", icon: LayoutDashboard },
   { href: "/owner/analytics", label: "Analytics", icon: BarChart3 },
   { href: "/owner/customers", label: "Customers", icon: Users },
