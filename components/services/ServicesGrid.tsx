@@ -35,7 +35,9 @@ export default function ServicesGrid() {
           <GlassCard key={s.id} className="p-7 hover:border-gold/40 transition-all group">
             <div className="flex items-start justify-between mb-4">
               <div className="w-14 h-14 rounded-2xl bg-gold/10 flex items-center justify-center group-hover:bg-gold/20 transition-colors">
-                <s.icon size={26} className="text-gold" />
+                <div className="text-gold text-lg">
+  {s.icon}
+</div>
               </div>
               <span className="px-3 py-1 rounded-full bg-white/5 text-white/50 text-xs font-medium border border-white/10">
                 {s.category}
